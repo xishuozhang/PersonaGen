@@ -21,10 +21,9 @@ forest:
   connect-timeout: 60000      # HTTP请求连接超时时间
   read-timeout: 60000         # HTTP请求读取超时时间
   variables:                  # 自定义变量:
-    # 张西硕api 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  # 模型text-davinci-003
-    apiKey: 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  # 你的 OpenAI 的 API KEY
+   
+    apiKey:XXXXXXXXXXXXXXXXXX  # 你的 OpenAI 的 API KEY
     model: text-davinci-003 # ChartGPT 的模型
-    #chat-model: gpt-3.5-turbo #可选
     maxTokens: 2000          # 最大 Token 数
     temperature: 0.5          # 该值越大每次返回的结果越随机，即相似度越小
 
